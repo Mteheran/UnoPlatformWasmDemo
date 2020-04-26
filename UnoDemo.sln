@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UnoDemo.Shared", "UnoDemo\UnoDemo.Shared\UnoDemo.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoDemo.Wasm", "UnoDemo\UnoDemo.Wasm\UnoDemo.Wasm.csproj", "{04DD60D8-AFE0-40E2-8B6E-CC44F1B385EA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		UnoDemo\UnoDemo.Shared\UnoDemo.Shared.projitems*{04dd60d8-afe0-40e2-8b6e-cc44f1b385ea}*SharedItemsImports = 5
+		UnoDemo\UnoDemo.Shared\UnoDemo.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DD60D8-AFE0-40E2-8B6E-CC44F1B385EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DD60D8-AFE0-40E2-8B6E-CC44F1B385EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DD60D8-AFE0-40E2-8B6E-CC44F1B385EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DD60D8-AFE0-40E2-8B6E-CC44F1B385EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C2AAAAD-B44E-4BF6-B8E7-D36C8D13169F}
+	EndGlobalSection
+EndGlobal
